@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 77f8449c820298e4d83f7b36ca5832ca
+guid: 2da64b1c65e0a7d4aa9b2747fca61135
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7297196468488472043
-    second: unitytut-birdwingup_0
+      213: -1906446835735802107
+    second: blue ball filled 512x512_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: unitytut-birdwingup_0
+      name: blue ball filled 512x512_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 194
-        height: 204
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51a728f59762bba90800000000000000
-      internalID: -7297196468488472043
+      spriteID: 50fccc424b0fa85e0800000000000000
+      internalID: -1906446835735802107
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      unitytut-birdwingup_0: -7297196468488472043
+      blue ball filled 512x512_0: -1906446835735802107
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

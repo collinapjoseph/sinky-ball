@@ -77,12 +77,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3273187744099624924, guid: a3483d043f53bc8409c88670e1898f6b, type: 3}
+  m_Sprite: {fileID: 7508359379186741516, guid: b4ee9644b5aff14489baa20c431174a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.33, y: 21.87543}
+  m_Size: {x: 5.12, y: 20.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -126,13 +126,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.7, y: 20.34}
-    newSize: {x: 5.33, y: 21.87543}
+    oldSize: {x: 5.12, y: 20.48}
+    newSize: {x: 5.12, y: 20.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.33, y: 21.87543}
+  m_Size: {x: 5.33, y: 20.5}
   m_EdgeRadius: 0
 --- !u!1 &4721315770930943981
 GameObject:
@@ -211,12 +211,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3273187744099624924, guid: a3483d043f53bc8409c88670e1898f6b, type: 3}
+  m_Sprite: {fileID: 7508359379186741516, guid: b4ee9644b5aff14489baa20c431174a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.33, y: 21.87543}
+  m_Size: {x: 5.12, y: 20.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -260,13 +260,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.7, y: 20.34}
-    newSize: {x: 5.33, y: 21.87543}
+    oldSize: {x: 5.12, y: 20.48}
+    newSize: {x: 5.12, y: 20.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.33, y: 21.87543}
+  m_Size: {x: 5.33, y: 20.5}
   m_EdgeRadius: 0
 --- !u!1 &5374120097039718310
 GameObject:
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 521089765754472207}
   - component: {fileID: 6932888722369171464}
   m_Layer: 0
-  m_Name: Pipes
+  m_Name: Obstacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
