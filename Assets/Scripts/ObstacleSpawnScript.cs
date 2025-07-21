@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class PipeSpawnScript : MonoBehaviour
+public class ObstacleSpawnScript : MonoBehaviour
 {
-    public GameObject pipe;
+    public GameObject obstacle;
     public float spawnInterval = 3;
     private float time = 0;
     public float heightOffset = 10;
@@ -10,7 +10,7 @@ public class PipeSpawnScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SpawnPipe();
+        SpawnObstacle();
     }
 
     // Update is called once per frame
@@ -22,19 +22,19 @@ public class PipeSpawnScript : MonoBehaviour
         }
         else
         {
-            SpawnPipe();
+            SpawnObstacle();
             time = 0;
         }
     }
 
-    void SpawnPipe()
+    void SpawnObstacle()
     {
         float highestPoint = transform.position.y + heightOffset;
         float lowestPoint = transform.position.y - heightOffset;
 
         Instantiate
         (
-            pipe,
+            obstacle,
             new Vector3(transform.position.x, Random.Range(lowestPoint, highestPoint)),
             transform.rotation
         );

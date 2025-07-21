@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-public class BirdScript : MonoBehaviour
+public class BallScript : MonoBehaviour
 {
 
     public Rigidbody2D birdRigidBody2D;
@@ -22,11 +21,11 @@ public class BirdScript : MonoBehaviour
         {
             birdRigidBody2D.linearVelocity = Vector2.up * flapStrength;
         }
-    }
 
-    void OnJump()
-    {
-        // rigidBody2D.linearVelocity = Vector2.up * flapStrength;
+        if (Mathf.Abs(transform.position.y) > 20)
+        {
+            gameLogic.GameOver();
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)

@@ -10,7 +10,6 @@ public class GameLogic : MonoBehaviour
     public GameObject pauseMenu;
     public bool gameIsActive = true;
 
-    [ContextMenu("Increase Score")]
     public void IncrementPlayerScore()
     {
         if (gameIsActive)
@@ -22,9 +21,9 @@ public class GameLogic : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         gameIsActive = true;
         ApplyTimeScale();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void GameOver()

@@ -495,7 +495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ea009ddb9440c246a5e02da63ee742f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pipe: {fileID: 5374120097039718310, guid: 230b3acee3b05d94881176303ce48891, type: 3}
+  obstacle: {fileID: 5374120097039718310, guid: 230b3acee3b05d94881176303ce48891, type: 3}
   spawnInterval: 3
   heightOffset: 10
 --- !u!1 &519420028
