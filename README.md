@@ -1,2 +1,3 @@
-# Reverse Flappy Bird
-Based on tutorial by Game Makers Toolkit.
+# Sinky Ball
+A reverse Flappy Bird.
+Based on Flappy Bird tutorial by Game Makers Toolkit.
