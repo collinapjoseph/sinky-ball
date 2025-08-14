@@ -1,4 +1,4 @@
 # Sinky Ball
-A reverse Flappy Bird. <br>
+An inverted Flappy Bird. <br>
 Unity game engine. <br>
 
